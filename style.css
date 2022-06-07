@@ -26,6 +26,11 @@ h1 {
     padding: 5px;
     font-size: 16px;
     font-weight: 600;
+    outline-color: black;
+    transition: 0.5s ease;
+}
+.calculator:focus {
+    outline-color: cyan;
 }
 .calculate button {
     width: 30%;
